@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97C9F7A728A0E71200A41885 /* Billie_EilishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C9F7A628A0E71200A41885 /* Billie_EilishApp.swift */; };
+		97C9F7A928A0E71200A41885 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C9F7A828A0E71200A41885 /* Persistence.swift */; };
+		97C9F7AC28A0E71200A41885 /* Billie_Eilish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97C9F7AA28A0E71200A41885 /* Billie_Eilish.xcdatamodeld */; };
+		97C9F7AE28A0E71200A41885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C9F7AD28A0E71200A41885 /* ContentView.swift */; };
+		97C9F7B028A0E71200A41885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C9F7AF28A0E71200A41885 /* Assets.xcassets */; };
+		97C9F7B428A0E71200A41885 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C9F7B328A0E71200A41885 /* Preview Assets.xcassets */; };
+		97C9F7BE28A0E71300A41885 /* Billie_EilishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C9F7BD28A0E71300A41885 /* Billie_EilishTests.swift */; };
+		97C9F7C828A0E71300A41885 /* Billie_EilishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C9F7C728A0E71300A41885 /* Billie_EilishUITests.swift */; };
+		97C9F7CA28A0E71300A41885 /* Billie_EilishUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C9F7C928A0E71300A41885 /* Billie_EilishUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97C9F7BA28A0E71300A41885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C9F79B28A0E71200A41885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97C9F7A228A0E71200A41885;
+			remoteInfo = "Billie Eilish";
+		};
+		97C9F7C428A0E71300A41885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97C9F79B28A0E71200A41885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97C9F7A228A0E71200A41885;
+			remoteInfo = "Billie Eilish";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97C9F7A328A0E71200A41885 /* Billie Eilish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Billie Eilish.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C9F7A628A0E71200A41885 /* Billie_EilishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billie_EilishApp.swift; sourceTree = "<group>"; };
+		97C9F7A828A0E71200A41885 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		97C9F7AB28A0E71200A41885 /* Billie_Eilish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Billie_Eilish.xcdatamodel; sourceTree = "<group>"; };
+		97C9F7AD28A0E71200A41885 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97C9F7AF28A0E71200A41885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97C9F7B128A0E71200A41885 /* Billie_Eilish.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Billie_Eilish.entitlements; sourceTree = "<group>"; };
+		97C9F7B328A0E71200A41885 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97C9F7B928A0E71300A41885 /* Billie EilishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billie EilishTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C9F7BD28A0E71300A41885 /* Billie_EilishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billie_EilishTests.swift; sourceTree = "<group>"; };
+		97C9F7C328A0E71300A41885 /* Billie EilishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billie EilishUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C9F7C728A0E71300A41885 /* Billie_EilishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billie_EilishUITests.swift; sourceTree = "<group>"; };
+		97C9F7C928A0E71300A41885 /* Billie_EilishUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billie_EilishUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97C9F7A028A0E71200A41885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C9F7B628A0E71300A41885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C9F7C028A0E71300A41885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97C9F79A28A0E71200A41885 = {
+			isa = PBXGroup;
+			children = (
+				97C9F7A528A0E71200A41885 /* Billie Eilish */,
+				97C9F7BC28A0E71300A41885 /* Billie EilishTests */,
+				97C9F7C628A0E71300A41885 /* Billie EilishUITests */,
+				97C9F7A428A0E71200A41885 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97C9F7A428A0E71200A41885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97C9F7A328A0E71200A41885 /* Billie Eilish.app */,
+				97C9F7B928A0E71300A41885 /* Billie EilishTests.xctest */,
+				97C9F7C328A0E71300A41885 /* Billie EilishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97C9F7A528A0E71200A41885 /* Billie Eilish */ = {
+			isa = PBXGroup;
+			children = (
+				97C9F7A628A0E71200A41885 /* Billie_EilishApp.swift */,
+				97C9F7A828A0E71200A41885 /* Persistence.swift */,
+				97C9F7AD28A0E71200A41885 /* ContentView.swift */,
+				97C9F7AF28A0E71200A41885 /* Assets.xcassets */,
+				97C9F7B128A0E71200A41885 /* Billie_Eilish.entitlements */,
+				97C9F7AA28A0E71200A41885 /* Billie_Eilish.xcdatamodeld */,
+				97C9F7B228A0E71200A41885 /* Preview Content */,
+			);
+			path = "Billie Eilish";
+			sourceTree = "<group>";
+		};
+		97C9F7B228A0E71200A41885 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97C9F7B328A0E71200A41885 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97C9F7BC28A0E71300A41885 /* Billie EilishTests */ = {
+			isa = PBXGroup;
+			children = (
+				97C9F7BD28A0E71300A41885 /* Billie_EilishTests.swift */,
+			);
+			path = "Billie EilishTests";
+			sourceTree = "<group>";
+		};
+		97C9F7C628A0E71300A41885 /* Billie EilishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97C9F7C728A0E71300A41885 /* Billie_EilishUITests.swift */,
+				97C9F7C928A0E71300A41885 /* Billie_EilishUITestsLaunchTests.swift */,
+			);
+			path = "Billie EilishUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97C9F7A228A0E71200A41885 /* Billie Eilish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C9F7CD28A0E71300A41885 /* Build configuration list for PBXNativeTarget "Billie Eilish" */;
+			buildPhases = (
+				97C9F79F28A0E71200A41885 /* Sources */,
+				97C9F7A028A0E71200A41885 /* Frameworks */,
+				97C9F7A128A0E71200A41885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Billie Eilish";
+			productName = "Billie Eilish";
+			productReference = 97C9F7A328A0E71200A41885 /* Billie Eilish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97C9F7B828A0E71300A41885 /* Billie EilishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C9F7D028A0E71300A41885 /* Build configuration list for PBXNativeTarget "Billie EilishTests" */;
+			buildPhases = (
+				97C9F7B528A0E71300A41885 /* Sources */,
+				97C9F7B628A0E71300A41885 /* Frameworks */,
+				97C9F7B728A0E71300A41885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97C9F7BB28A0E71300A41885 /* PBXTargetDependency */,
+			);
+			name = "Billie EilishTests";
+			productName = "Billie EilishTests";
+			productReference = 97C9F7B928A0E71300A41885 /* Billie EilishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97C9F7C228A0E71300A41885 /* Billie EilishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C9F7D328A0E71300A41885 /* Build configuration list for PBXNativeTarget "Billie EilishUITests" */;
+			buildPhases = (
+				97C9F7BF28A0E71300A41885 /* Sources */,
+				97C9F7C028A0E71300A41885 /* Frameworks */,
+				97C9F7C128A0E71300A41885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97C9F7C528A0E71300A41885 /* PBXTargetDependency */,
+			);
+			name = "Billie EilishUITests";
+			productName = "Billie EilishUITests";
+			productReference = 97C9F7C328A0E71300A41885 /* Billie EilishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97C9F79B28A0E71200A41885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					97C9F7A228A0E71200A41885 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					97C9F7B828A0E71300A41885 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 97C9F7A228A0E71200A41885;
+					};
+					97C9F7C228A0E71300A41885 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 97C9F7A228A0E71200A41885;
+					};
+				};
+			};
+			buildConfigurationList = 97C9F79E28A0E71200A41885 /* Build configuration list for PBXProject "Billie Eilish" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97C9F79A28A0E71200A41885;
+			productRefGroup = 97C9F7A428A0E71200A41885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97C9F7A228A0E71200A41885 /* Billie Eilish */,
+				97C9F7B828A0E71300A41885 /* Billie EilishTests */,
+				97C9F7C228A0E71300A41885 /* Billie EilishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97C9F7A128A0E71200A41885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C9F7B428A0E71200A41885 /* Preview Assets.xcassets in Resources */,
+				97C9F7B028A0E71200A41885 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C9F7B728A0E71300A41885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C9F7C128A0E71300A41885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97C9F79F28A0E71200A41885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C9F7A728A0E71200A41885 /* Billie_EilishApp.swift in Sources */,
+				97C9F7A928A0E71200A41885 /* Persistence.swift in Sources */,
+				97C9F7AE28A0E71200A41885 /* ContentView.swift in Sources */,
+				97C9F7AC28A0E71200A41885 /* Billie_Eilish.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C9F7B528A0E71300A41885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C9F7BE28A0E71300A41885 /* Billie_EilishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C9F7BF28A0E71300A41885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C9F7C828A0E71300A41885 /* Billie_EilishUITests.swift in Sources */,
+				97C9F7CA28A0E71300A41885 /* Billie_EilishUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97C9F7BB28A0E71300A41885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97C9F7A228A0E71200A41885 /* Billie Eilish */;
+			targetProxy = 97C9F7BA28A0E71300A41885 /* PBXContainerItemProxy */;
+		};
+		97C9F7C528A0E71300A41885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97C9F7A228A0E71200A41885 /* Billie Eilish */;
+			targetProxy = 97C9F7C428A0E71300A41885 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		97C9F7CB28A0E71300A41885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97C9F7CC28A0E71300A41885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		97C9F7CE28A0E71300A41885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Billie Eilish/Billie_Eilish.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Billie Eilish/Preview Content\"";
+				DEVELOPMENT_TEAM = 69S862NXBP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dor.Billie-Eilish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97C9F7CF28A0E71300A41885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Billie Eilish/Billie_Eilish.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Billie Eilish/Preview Content\"";
+				DEVELOPMENT_TEAM = 69S862NXBP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dor.Billie-Eilish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97C9F7D128A0E71300A41885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69S862NXBP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dor.Billie-EilishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billie Eilish.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Billie Eilish";
+			};
+			name = Debug;
+		};
+		97C9F7D228A0E71300A41885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69S862NXBP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dor.Billie-EilishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billie Eilish.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Billie Eilish";
+			};
+			name = Release;
+		};
+		97C9F7D428A0E71300A41885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69S862NXBP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dor.Billie-EilishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Billie Eilish";
+			};
+			name = Debug;
+		};
+		97C9F7D528A0E71300A41885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69S862NXBP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dor.Billie-EilishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Billie Eilish";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97C9F79E28A0E71200A41885 /* Build configuration list for PBXProject "Billie Eilish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C9F7CB28A0E71300A41885 /* Debug */,
+				97C9F7CC28A0E71300A41885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C9F7CD28A0E71300A41885 /* Build configuration list for PBXNativeTarget "Billie Eilish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C9F7CE28A0E71300A41885 /* Debug */,
+				97C9F7CF28A0E71300A41885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C9F7D028A0E71300A41885 /* Build configuration list for PBXNativeTarget "Billie EilishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C9F7D128A0E71300A41885 /* Debug */,
+				97C9F7D228A0E71300A41885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C9F7D328A0E71300A41885 /* Build configuration list for PBXNativeTarget "Billie EilishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C9F7D428A0E71300A41885 /* Debug */,
+				97C9F7D528A0E71300A41885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		97C9F7AA28A0E71200A41885 /* Billie_Eilish.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				97C9F7AB28A0E71200A41885 /* Billie_Eilish.xcdatamodel */,
+			);
+			currentVersion = 97C9F7AB28A0E71200A41885 /* Billie_Eilish.xcdatamodel */;
+			path = Billie_Eilish.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 97C9F79B28A0E71200A41885 /* Project object */;
+}
