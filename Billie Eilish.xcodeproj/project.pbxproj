@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		97C9F7A728A0E71200A41885 /* Billie_EilishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C9F7A628A0E71200A41885 /* Billie_EilishApp.swift */; };
-		97C9F7A928A0E71200A41885 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C9F7A828A0E71200A41885 /* Persistence.swift */; };
-		97C9F7AC28A0E71200A41885 /* Billie_Eilish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97C9F7AA28A0E71200A41885 /* Billie_Eilish.xcdatamodeld */; };
+		97487CAF28A62EB100EA1847 /* SongsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97487CAE28A62EB100EA1847 /* SongsListScreen.swift */; };
+		97487CB128A6306C00EA1847 /* AboutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97487CB028A6306C00EA1847 /* AboutScreen.swift */; };
+		97C9F7A728A0E71200A41885 /* BillieEilishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C9F7A628A0E71200A41885 /* BillieEilishApp.swift */; };
 		97C9F7AE28A0E71200A41885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C9F7AD28A0E71200A41885 /* ContentView.swift */; };
 		97C9F7B028A0E71200A41885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C9F7AF28A0E71200A41885 /* Assets.xcassets */; };
 		97C9F7B428A0E71200A41885 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C9F7B328A0E71200A41885 /* Preview Assets.xcassets */; };
@@ -36,10 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		97487CAE28A62EB100EA1847 /* SongsListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsListScreen.swift; sourceTree = "<group>"; };
+		97487CB028A6306C00EA1847 /* AboutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutScreen.swift; sourceTree = "<group>"; };
 		97C9F7A328A0E71200A41885 /* Billie Eilish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Billie Eilish.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		97C9F7A628A0E71200A41885 /* Billie_EilishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billie_EilishApp.swift; sourceTree = "<group>"; };
-		97C9F7A828A0E71200A41885 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		97C9F7AB28A0E71200A41885 /* Billie_Eilish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Billie_Eilish.xcdatamodel; sourceTree = "<group>"; };
+		97C9F7A628A0E71200A41885 /* BillieEilishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillieEilishApp.swift; sourceTree = "<group>"; };
 		97C9F7AD28A0E71200A41885 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		97C9F7AF28A0E71200A41885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C9F7B128A0E71200A41885 /* Billie_Eilish.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Billie_Eilish.entitlements; sourceTree = "<group>"; };
@@ -99,12 +99,12 @@
 		97C9F7A528A0E71200A41885 /* Billie Eilish */ = {
 			isa = PBXGroup;
 			children = (
-				97C9F7A628A0E71200A41885 /* Billie_EilishApp.swift */,
-				97C9F7A828A0E71200A41885 /* Persistence.swift */,
+				97C9F7A628A0E71200A41885 /* BillieEilishApp.swift */,
 				97C9F7AD28A0E71200A41885 /* ContentView.swift */,
+				97487CAE28A62EB100EA1847 /* SongsListScreen.swift */,
+				97487CB028A6306C00EA1847 /* AboutScreen.swift */,
 				97C9F7AF28A0E71200A41885 /* Assets.xcassets */,
 				97C9F7B128A0E71200A41885 /* Billie_Eilish.entitlements */,
-				97C9F7AA28A0E71200A41885 /* Billie_Eilish.xcdatamodeld */,
 				97C9F7B228A0E71200A41885 /* Preview Content */,
 			);
 			path = "Billie Eilish";
@@ -265,10 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97C9F7A728A0E71200A41885 /* Billie_EilishApp.swift in Sources */,
-				97C9F7A928A0E71200A41885 /* Persistence.swift in Sources */,
+				97C9F7A728A0E71200A41885 /* BillieEilishApp.swift in Sources */,
+				97487CAF28A62EB100EA1847 /* SongsListScreen.swift in Sources */,
 				97C9F7AE28A0E71200A41885 /* ContentView.swift in Sources */,
-				97C9F7AC28A0E71200A41885 /* Billie_Eilish.xcdatamodeld in Sources */,
+				97487CB128A6306C00EA1847 /* AboutScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +427,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -437,10 +438,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dor.Billie-Eilish";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -465,6 +466,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -475,10 +477,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dor.Billie-Eilish";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -620,19 +622,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		97C9F7AA28A0E71200A41885 /* Billie_Eilish.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				97C9F7AB28A0E71200A41885 /* Billie_Eilish.xcdatamodel */,
-			);
-			currentVersion = 97C9F7AB28A0E71200A41885 /* Billie_Eilish.xcdatamodel */;
-			path = Billie_Eilish.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 97C9F79B28A0E71200A41885 /* Project object */;
 }
