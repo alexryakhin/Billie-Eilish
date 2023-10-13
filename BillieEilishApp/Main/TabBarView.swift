@@ -15,16 +15,17 @@ struct TabBarView: View {
     let tabs: [String] = ["amplifier", "music.quarternote.3", "music.note.house", "creditcard", "giftcard"]
     
     var body: some View {
-        HStack(spacing: 30) {
+        HStack {
             Spacer()
             ForEach(tabs.indices) { index in
-                Button {
-                    selection = index
-                } label: {
-                    Image(systemName: tabs[index]).foregroundColor(index == selection ? Color.white : Color("YellowBillie")).shadow(color: Color("YellowBillie"), radius: 10, x: 1, y: 1)
-                }
+                Image(systemName: tabs[index])
+                    .foregroundColor(index == selection ? Color.white : Color("YellowBillie"))
+                    .shadow(color: Color("YellowBillie"), radius: 10, x: 1, y: 1)
+                    .onTapGesture {
+                        selection = index
+                    }
+                Spacer()
             }
-            Spacer()
         }
         .foregroundColor(Color("YellowBillie"))
         .padding(.top).padding(.bottom)
