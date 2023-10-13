@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5110092B26B86660001FE1C4 /* MusicItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110092826B86660001FE1C4 /* MusicItemCell.swift */; };
+		5110092C26B86660001FE1C4 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110092926B86660001FE1C4 /* TrackCell.swift */; };
+		5110092D26B86660001FE1C4 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5110092A26B86660001FE1C4 /* AlbumCell.swift */; };
+		516AE01D26906F880090FD22 /* BillieEilishAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AE01C26906F880090FD22 /* BillieEilishAppApp.swift */; };
+		516AE01F26906F880090FD22 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AE01E26906F880090FD22 /* MainView.swift */; };
+		516AE02126906F8A0090FD22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516AE02026906F8A0090FD22 /* Assets.xcassets */; };
+		516AE02426906F8A0090FD22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516AE02326906F8A0090FD22 /* Preview Assets.xcassets */; };
+		516AE04D269074510090FD22 /* SpecialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AE04C269074510090FD22 /* SpecialView.swift */; };
+		516AE051269083C30090FD22 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AE050269083C30090FD22 /* MusicView.swift */; };
+		516AE053269084090090FD22 /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516AE052269084090090FD22 /* MusicViewModel.swift */; };
+		5173C9E126B67C5E001561DB /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173C9E026B67C5E001561DB /* TabBarView.swift */; };
+		5173C9E326B6CA7B001561DB /* SpecialDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173C9E226B6CA7B001561DB /* SpecialDetailView.swift */; };
+		5173C9E526B6CA9A001561DB /* SpecialItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173C9E426B6CA9A001561DB /* SpecialItem.swift */; };
+		5173C9E726B6CB4F001561DB /* SpecialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173C9E626B6CB4F001561DB /* SpecialViewModel.swift */; };
+		5176A5B126AAB25000DA7472 /* Coronet.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5176A5B026AAB25000DA7472 /* Coronet.ttf */; };
+		517984E426B6609C0058C819 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517984E326B6609C0058C819 /* NavigationBarView.swift */; };
+		5187E77126B58C5F00D84143 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187E77026B58C5F00D84143 /* HomeView.swift */; };
+		5187E77326B5923F00D84143 /* AdelleSemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5187E77226B5923F00D84143 /* AdelleSemiBoldItalic.otf */; };
+		5187E77526B5925100D84143 /* AdelleItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5187E77426B5925100D84143 /* AdelleItalic.otf */; };
+		5187E77726B599C700D84143 /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187E77626B599C700D84143 /* HomeItem.swift */; };
+		5187E77926B59E5200D84143 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187E77826B59E5200D84143 /* HomeViewModel.swift */; };
+		5187E77B26B5AEAC00D84143 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5187E77A26B5AEAC00D84143 /* StoreView.swift */; };
+		51BC64CC2699C3E60003D086 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BC64CB2699C3E60003D086 /* Bundle-Decodable.swift */; };
+		51EC6A4E26AC0D0B00D4C7BB /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EC6A4D26AC0D0B00D4C7BB /* AlbumView.swift */; };
+		51FEE7312699AB1D006EDE28 /* TourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEE7302699AB1D006EDE28 /* TourView.swift */; };
+		51FEE7332699AB29006EDE28 /* TourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEE7322699AB29006EDE28 /* TourModel.swift */; };
+		51FEE7352699B7BD006EDE28 /* billie_tour.json in Resources */ = {isa = PBXBuildFile; fileRef = 51FEE7342699B7BD006EDE28 /* billie_tour.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5110092826B86660001FE1C4 /* MusicItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicItemCell.swift; sourceTree = "<group>"; };
+		5110092926B86660001FE1C4 /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		5110092A26B86660001FE1C4 /* AlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		516AE01926906F880090FD22 /* BillieEilishApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillieEilishApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		516AE01C26906F880090FD22 /* BillieEilishAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillieEilishAppApp.swift; sourceTree = "<group>"; };
+		516AE01E26906F880090FD22 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		516AE02026906F8A0090FD22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		516AE02326906F8A0090FD22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		516AE02526906F8A0090FD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516AE04C269074510090FD22 /* SpecialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialView.swift; sourceTree = "<group>"; };
+		516AE050269083C30090FD22 /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		516AE052269084090090FD22 /* MusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewModel.swift; sourceTree = "<group>"; };
+		5173C9E026B67C5E001561DB /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		5173C9E226B6CA7B001561DB /* SpecialDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialDetailView.swift; sourceTree = "<group>"; };
+		5173C9E426B6CA9A001561DB /* SpecialItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialItem.swift; sourceTree = "<group>"; };
+		5173C9E626B6CB4F001561DB /* SpecialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialViewModel.swift; sourceTree = "<group>"; };
+		5176A5B026AAB25000DA7472 /* Coronet.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coronet.ttf; sourceTree = "<group>"; };
+		517984E326B6609C0058C819 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		5187E77026B58C5F00D84143 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5187E77226B5923F00D84143 /* AdelleSemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AdelleSemiBoldItalic.otf; sourceTree = "<group>"; };
+		5187E77426B5925100D84143 /* AdelleItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AdelleItalic.otf; sourceTree = "<group>"; };
+		5187E77626B599C700D84143 /* HomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItem.swift; sourceTree = "<group>"; };
+		5187E77826B59E5200D84143 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5187E77A26B5AEAC00D84143 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		51BC64CB2699C3E60003D086 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		51EC6A4D26AC0D0B00D4C7BB /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		51FEE7302699AB1D006EDE28 /* TourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourView.swift; sourceTree = "<group>"; };
+		51FEE7322699AB29006EDE28 /* TourModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourModel.swift; sourceTree = "<group>"; };
+		51FEE7342699B7BD006EDE28 /* billie_tour.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = billie_tour.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		516AE01626906F880090FD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		516AE01026906F880090FD22 = {
+			isa = PBXGroup;
+			children = (
+				516AE01B26906F880090FD22 /* BillieEilishApp */,
+				516AE01A26906F880090FD22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		516AE01A26906F880090FD22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				516AE01926906F880090FD22 /* BillieEilishApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		516AE01B26906F880090FD22 /* BillieEilishApp */ = {
+			isa = PBXGroup;
+			children = (
+				51BC64CB2699C3E60003D086 /* Bundle-Decodable.swift */,
+				516AE01C26906F880090FD22 /* BillieEilishAppApp.swift */,
+				517984E226B6607D0058C819 /* Main */,
+				516AE0472690740A0090FD22 /* Tour */,
+				516AE048269074140090FD22 /* Music */,
+				516AE0492690741B0090FD22 /* Home */,
+				516AE04A269074200090FD22 /* Store */,
+				516AE04B269074290090FD22 /* Special */,
+				516AE02026906F8A0090FD22 /* Assets.xcassets */,
+				5173C9DF26B6694F001561DB /* Fonts */,
+				516AE02526906F8A0090FD22 /* Info.plist */,
+				516AE02226906F8A0090FD22 /* Preview Content */,
+			);
+			path = BillieEilishApp;
+			sourceTree = "<group>";
+		};
+		516AE02226906F8A0090FD22 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				516AE02326906F8A0090FD22 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		516AE0472690740A0090FD22 /* Tour */ = {
+			isa = PBXGroup;
+			children = (
+				51FEE7302699AB1D006EDE28 /* TourView.swift */,
+				51FEE7322699AB29006EDE28 /* TourModel.swift */,
+				51FEE7342699B7BD006EDE28 /* billie_tour.json */,
+			);
+			path = Tour;
+			sourceTree = "<group>";
+		};
+		516AE048269074140090FD22 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				516AE050269083C30090FD22 /* MusicView.swift */,
+				516AE052269084090090FD22 /* MusicViewModel.swift */,
+				51EC6A4D26AC0D0B00D4C7BB /* AlbumView.swift */,
+				5110092A26B86660001FE1C4 /* AlbumCell.swift */,
+				5110092826B86660001FE1C4 /* MusicItemCell.swift */,
+				5110092926B86660001FE1C4 /* TrackCell.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		516AE0492690741B0090FD22 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5187E77026B58C5F00D84143 /* HomeView.swift */,
+				5187E77826B59E5200D84143 /* HomeViewModel.swift */,
+				5187E77626B599C700D84143 /* HomeItem.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		516AE04A269074200090FD22 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				5187E77A26B5AEAC00D84143 /* StoreView.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		516AE04B269074290090FD22 /* Special */ = {
+			isa = PBXGroup;
+			children = (
+				516AE04C269074510090FD22 /* SpecialView.swift */,
+				5173C9E426B6CA9A001561DB /* SpecialItem.swift */,
+				5173C9E626B6CB4F001561DB /* SpecialViewModel.swift */,
+				5173C9E226B6CA7B001561DB /* SpecialDetailView.swift */,
+			);
+			path = Special;
+			sourceTree = "<group>";
+		};
+		5173C9DF26B6694F001561DB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5187E77426B5925100D84143 /* AdelleItalic.otf */,
+				5187E77226B5923F00D84143 /* AdelleSemiBoldItalic.otf */,
+				5176A5B026AAB25000DA7472 /* Coronet.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		517984E226B6607D0058C819 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				516AE01E26906F880090FD22 /* MainView.swift */,
+				5173C9E026B67C5E001561DB /* TabBarView.swift */,
+				517984E326B6609C0058C819 /* NavigationBarView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		516AE01826906F880090FD22 /* BillieEilishApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516AE03E26906F8A0090FD22 /* Build configuration list for PBXNativeTarget "BillieEilishApp" */;
+			buildPhases = (
+				516AE01526906F880090FD22 /* Sources */,
+				516AE01626906F880090FD22 /* Frameworks */,
+				516AE01726906F880090FD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BillieEilishApp;
+			productName = BillieEilishApp;
+			productReference = 516AE01926906F880090FD22 /* BillieEilishApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		516AE01126906F880090FD22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					516AE01826906F880090FD22 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 516AE01426906F880090FD22 /* Build configuration list for PBXProject "BillieEilishApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 516AE01026906F880090FD22;
+			productRefGroup = 516AE01A26906F880090FD22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				516AE01826906F880090FD22 /* BillieEilishApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		516AE01726906F880090FD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516AE02426906F8A0090FD22 /* Preview Assets.xcassets in Resources */,
+				5176A5B126AAB25000DA7472 /* Coronet.ttf in Resources */,
+				5187E77526B5925100D84143 /* AdelleItalic.otf in Resources */,
+				516AE02126906F8A0090FD22 /* Assets.xcassets in Resources */,
+				5187E77326B5923F00D84143 /* AdelleSemiBoldItalic.otf in Resources */,
+				51FEE7352699B7BD006EDE28 /* billie_tour.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		516AE01526906F880090FD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EC6A4E26AC0D0B00D4C7BB /* AlbumView.swift in Sources */,
+				5187E77726B599C700D84143 /* HomeItem.swift in Sources */,
+				5187E77126B58C5F00D84143 /* HomeView.swift in Sources */,
+				5187E77926B59E5200D84143 /* HomeViewModel.swift in Sources */,
+				516AE053269084090090FD22 /* MusicViewModel.swift in Sources */,
+				51FEE7332699AB29006EDE28 /* TourModel.swift in Sources */,
+				5173C9E526B6CA9A001561DB /* SpecialItem.swift in Sources */,
+				5173C9E126B67C5E001561DB /* TabBarView.swift in Sources */,
+				516AE01F26906F880090FD22 /* MainView.swift in Sources */,
+				517984E426B6609C0058C819 /* NavigationBarView.swift in Sources */,
+				516AE01D26906F880090FD22 /* BillieEilishAppApp.swift in Sources */,
+				516AE051269083C30090FD22 /* MusicView.swift in Sources */,
+				5187E77B26B5AEAC00D84143 /* StoreView.swift in Sources */,
+				51BC64CC2699C3E60003D086 /* Bundle-Decodable.swift in Sources */,
+				5110092B26B86660001FE1C4 /* MusicItemCell.swift in Sources */,
+				5110092C26B86660001FE1C4 /* TrackCell.swift in Sources */,
+				5173C9E326B6CA7B001561DB /* SpecialDetailView.swift in Sources */,
+				5110092D26B86660001FE1C4 /* AlbumCell.swift in Sources */,
+				51FEE7312699AB1D006EDE28 /* TourView.swift in Sources */,
+				5173C9E726B6CB4F001561DB /* SpecialViewModel.swift in Sources */,
+				516AE04D269074510090FD22 /* SpecialView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		516AE03C26906F8A0090FD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		516AE03D26906F8A0090FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		516AE03F26906F8A0090FD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BillieEilishApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 69S862NXBP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BillieEilishApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dor.BillieEilishApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		516AE04026906F8A0090FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BillieEilishApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 69S862NXBP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BillieEilishApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dor.BillieEilishApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		516AE01426906F880090FD22 /* Build configuration list for PBXProject "BillieEilishApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516AE03C26906F8A0090FD22 /* Debug */,
+				516AE03D26906F8A0090FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516AE03E26906F8A0090FD22 /* Build configuration list for PBXNativeTarget "BillieEilishApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516AE03F26906F8A0090FD22 /* Debug */,
+				516AE04026906F8A0090FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 516AE01126906F880090FD22 /* Project object */;
+}
